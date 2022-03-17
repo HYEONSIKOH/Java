@@ -12,7 +12,7 @@ public class LeapYear {
 		boolean Leap = ( (year%4) == 0 );
 		
 		
-		System.out.println(+year+"도는 윤년이 "+Leap+" 입니다.");
+		System.out.println(+year+"년도는 윤년이 "+Leap+" 입니다.");
 		
 	}
 }
