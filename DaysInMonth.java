@@ -25,7 +25,7 @@ public class DaysInMonth {
 		case 6:
 		case 9:
 		case 11:
-			System.out.print("31일 입니다.");
+			System.out.print("30일 입니다.");
 			break;
 			
 		default:
