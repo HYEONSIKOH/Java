@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //문제 2
 
 public class Lec3Ex2 {
 	public static void main(String args[]) {
@@ -8,10 +8,9 @@ public class Lec3Ex2 {
 		num = input.nextInt();
 		
 		System.out.println(num+"의 약수는 다음과 같습니다.");
-		for(int i=0; i<num+1; i++)
+		for(int i=1; i<num+1; i++)
 			if(num%i==0)
-				System.out.print(i+" ");
-
+				System.out.print(i+" ");	
 	}
 
 }

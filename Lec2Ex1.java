@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; //¹®Á¦ 1
 
 public class Lec2Ex1 {
 	public static void main(String args[]) {
