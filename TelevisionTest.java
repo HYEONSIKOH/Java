@@ -1,7 +1,8 @@
 
 public class TelevisionTest {
 	public static void main(String args[]) {
-		Television mytv = new Television();
+		Television mytv = new Television(10,5,false);
+		
 		mytv.channel = 7;
 		mytv.volume = 9;
 		mytv.onOff = true;
@@ -9,9 +10,9 @@ public class TelevisionTest {
 		mytv.print();
 		int ch = mytv.getChannel();
 		
-		System.out.println("현재 체널은 "+ch+"입니다.");
 		
-		Television yourTv = new Television();
+		
+		Television yourTv = new Television(10,5,false);
 		yourTv.channel = 9;
 		yourTv.volume = 12;
 		yourTv.onOff = true;

@@ -13,12 +13,12 @@ public class Find_www {
 		}
 		
 		else if(num == 0) {
-			System.out.print(Address+"은 www 로 시작합니다.");
+			System.out.print(Address+"은 www로 시작합니다.");
 		}
 			
 		
 		else {
-			System.out.print(Address+"은 www 로 시작하지 않습니다.");
+			System.out.print(Address+"은 www로 시작하지 않습니다.");
 			
 		}
 			
