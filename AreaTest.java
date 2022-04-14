@@ -7,12 +7,12 @@ public class AreaTest {
 		final double PI = 3.141592;
 		double radius;
 		
-		System.out.print("¹ÝÁö¸§À» ÀÔ·ÂÇÏ¼¼¿ä:");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½:");
 		radius = input.nextInt();
 		
 		double area = radius * radius * PI;
 		
-		System.out.print("¹ÝÁö¸§ÀÌ "+radius+" ÀÎ ¿øÀÇ ¸éÀûÀº "+area+" ÀÔ´Ï´Ù.");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+radius+" ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+area+" ï¿½Ô´Ï´ï¿½.");
 		
 	}
 }
